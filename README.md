@@ -1,6 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Online photo collage tool Project from [codementor.io](https://www.codementor.io)
 
-## Getting Started
+### Requirements
+
+- [ ] User is able to upload images without registration
+- [ ] The user defines if they want to make a horizontal collage or a vertical collage and what border size and color they want.
+- [ ] When the user clicks on “Make Collage”, the front-end calls the API, which in turn sends a processing job to the task queue. That means, that the images are processed asynchronously while a loading screen is shown to the end-user.
+- [ ] The front-end can query the backend API to see if the processing has finished.
+- [ ] The asynchronous processing module resizes the images to the same height for a horizontal collage, and to the same width for a vertical collage. Each image’s aspect ratio should remain the same.
+- [ ] To make the collage, stitch the resized images together with the user-defined borders.
+- [ ] Finally, the user is redirected to a page to download the final collage.
+#### Getting Started
 
 First, run the development server:
 
