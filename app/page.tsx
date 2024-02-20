@@ -1,7 +1,11 @@
+import ImageGallery from "./(components)/ImageGallery";
+import ImagePicker from "./(components)/ImagePicker";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-     
+    <main className="flex min-h-screen  justify-center p-12">
+        <ImagePicker />
+        <ImageGallery />
     </main>
   );
 }
